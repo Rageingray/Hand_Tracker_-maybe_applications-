@@ -33,4 +33,9 @@ while True:
             imgWhite[hGap:hCal + hGap, :] = imgResize
         cv2.imshow("ImageCrop", imgCrop)
         cv2.imshow("ImageWhite", imgWhite)
+<<<<<<< HEAD:minor.py
     cv2.imshow("Image", img)
+=======
+    cv2.imshow("Image", img)
+    key = cv2.waitKey(1)
+>>>>>>> b101139faabd1542474629e150de7c1b5e13a727:tracker.py
