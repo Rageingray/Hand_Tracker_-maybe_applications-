@@ -34,3 +34,4 @@ while True:
         cv2.imshow("ImageCrop", imgCrop)
         cv2.imshow("ImageWhite", imgWhite)
     cv2.imshow("Image", img)
+    key = cv2.waitKey(1)
